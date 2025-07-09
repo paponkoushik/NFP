@@ -1,0 +1,12 @@
+import '../vendor/libs/jquery/jquery.js';
+import '../vendor/libs/popper/popper.js';
+import '../vendor/js/bootstrap.js';
+import '../vendor/libs/perfect-scrollbar/perfect-scrollbar.js';
+//import '../vendor/libs/select2/select2.js';
+import '../vendor/libs/flatpickr/flatpickr.js';
+import '../vendor/libs/hammer/hammer.js';
+import '../vendor/libs/typeahead-js/typeahead.js';
+import '../vendor/js/dropdown-hover.js';
+import '../vendor/js/mega-dropdown.js';
+//import './menu.js';
+//import '../js/main.js';

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "F37Zagma-Regular";
+    src: url('/fonts/F37Zagma-Regular.woff2') format("woff2"), 
+         url('/fonts/F37Zagma-Regular.woff') format("woff"),
+         url('/fonts/F37Zagma-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}

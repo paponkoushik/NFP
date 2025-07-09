@@ -1,0 +1,70 @@
+.light-style {
+    .animated-background {
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-name: placeHolderShimmer;
+        animation-timing-function: linear;
+        background: #F6F6F6;
+        background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+        background-size: 800px 104px;
+        height: 96px;
+        position: relative;
+    }    
+}
+.dark-style {
+    .animated-background {
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-name: placeHolderShimmer;
+        animation-timing-function: linear;
+        background: #232333;
+        background: linear-gradient(to right, #232333 8%, #2323337d 18%, #232333 33%);
+        background-size: 800px 104px;
+        height: 96px;
+        position: relative;
+    }
+}
+
+.dark-style .wrp-loader, .light-style .wrp-loader {
+    display: flex;
+    flex-direction: column;
+
+    .loader-cell {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    // Page Elements
+    .loader-img {
+        height: 60px;
+        width: 60px;
+        //  background: #F6F6F6;
+        @extend .animated-background;
+    }
+
+    .text {
+        margin-left: 20px
+    }
+
+    .text-line {
+        height: 10px;
+        width: calc(80% - 30px);
+        //  background: #F6F6F6;
+        margin: 4px 0;
+        @extend .animated-background;
+    }
+}
+
+// Animation
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+

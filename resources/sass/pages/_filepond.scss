@@ -1,0 +1,18 @@
+.dark-style {
+    /* the background color of the filepond drop area */
+    .filepond--panel-root {
+        background-color: #232333 !important;
+    }
+    /* the text color of the drop label*/
+    .filepond--drop-label {
+        color: #7071a4 !important;
+    }
+}
+
+.filepond--root .filepond--drop-label {
+    font-family: var(--bs-body-font-family);
+}
+
+.filepond--credits {
+    display: none !important;
+}

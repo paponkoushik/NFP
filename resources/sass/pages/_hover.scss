@@ -1,0 +1,134 @@
+.hover\:bg-indigo-700:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(67 56 202 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-indigo-600:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(79 70 229 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-green-700:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(21 128 61 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-white:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(255 255 255 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-indigo-600\/5:hover {
+    background-color: rgb(79 70 229 / 0.05) !important;
+}
+.hover\:bg-gray-200:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(229 231 235 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-emerald-700:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(4 120 87 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-slate-200:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(226 232 240 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-emerald-600:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(5 150 105 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-red-600:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(220 38 38 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-sky-600:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(2 132 199 / var(--bs-bg-opacity)) !important;
+}
+.hover\:bg-gray-50:hover {
+    --bs-bg-opacity: 1 !important;
+    background-color: rgb(249 250 251 / var(--bs-bg-opacity)) !important;
+}
+.hover\:text-indigo-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(79 70 229 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-white:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-red-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(220 38 38 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-emerald-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(5 150 105 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-sky-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(2 132 199 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-amber-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(217 119 6 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-gray-900:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(17 24 39 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-slate-500:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(100 116 139 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-gray-400:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(156 163 175 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-indigo-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(79 70 229 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-emerald-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(5 150 105 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-red-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(220 38 38 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-sky-600:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(2 132 199 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-amber-500:hover {
+    --bs-text-opacity: 1 !important;
+    color: rgb(245 158 11 / var(--bs-text-opacity)) !important;
+}
+.hover\:text-white\/50:hover {
+    color: rgb(255 255 255 / 0.5) !important;
+}
+.hover\:text-white\/\[0\.04\]:hover {
+    color: rgb(255 255 255 / 0.04) !important;
+}
+.hover\:opacity-100:hover {
+    opacity: 1 !important;
+}
+.hover\:opacity-70:hover {
+    opacity: 0.7 !important;
+}
+
+.hover\:shadow-sm:hover {
+    box-shadow: 0 0.25rem 1rem rgb(161 172 184 / 45%) !important;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hover\:rounded:hover {
+    border-radius: 0.375rem !important;
+}
+
+.hover\:transition-up {
+    transition: 0.25s;
+
+    &:hover {
+        box-shadow: 0 0.5em 0.5em -0.4em rgb(161 172 184 / 45%);
+        transform: translateY(-0.25em);
+    }
+}

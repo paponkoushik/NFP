@@ -1,0 +1,17 @@
+.trix-editor .trix-button-group--file-tools {
+    display: none;
+}
+
+.dark-style {
+    trix-toolbar .trix-button {
+        background-color: #f8f8f8;
+    }
+
+    trix-toolbar .trix-button.trix-active {
+        background: #cbeefa;
+    }
+
+    .text-black {
+        color: #cbc7c7 !important;
+    }
+}
